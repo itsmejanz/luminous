@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #BB2735;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+    display: none;
+    border: 2px solid #e24a4a;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.result-image {
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#result-content p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.result.success {
+    color: green;
+}
+
+.result.fail {
+    color: red;
+}
+
+.report-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #d9534f;
+    text-decoration: none;
+}
+
+.report-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: #BB2735;
+    color: white;
+}
+
+.watermark {
+    margin: 0;
+    font-size: 14px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color:#000000;
+}
+
