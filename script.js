@@ -74,8 +74,10 @@ document.getElementById('divisionForm').addEventListener('submit', function(even
             {"id": "12629", "nama": "Yohanes Mario Swandaru", "kelas": "X-6", "divisi": "CDMS"},
             {"id": "12326", "nama": "Raihan Juan Praja", "kelas": "XI-7", "divisi": "CDMS"},
             {"id": "12446", "nama": "Rifat Altair Rudini", "kelas": "X-1", "divisi": "CDMS"},
-            {"id": "12328", "nama": "Sulthan Thoriq Andhifa", "kelas": "XI-7", "divisi": "P-Channel"},
-            {"id": "12296", "nama": "Admiral Muhammad Aghasi", "kelas": "XI-6", "divisi": "P-Channel"}          
+            {"id": "12328", "nama": "Sulthan Thoriq Andhifa", "kelas": "XI-7", "divisi": "CDMS"}
+            {"id": "12595", "nama": "Adzki Rahma Ali", "kelas": "X-6", "divisi": "Humas Internal"},
+            {"id": "12689", "nama": "NADIA DUWI SERLINA", "kelas": "X-8", "divisi": "Humas Medi"},
+            {"id": "12296", "nama": "Admiral Muhammad Aghasi", "kelas": "XI-6", "divisi": "CDMS"}          
     ];
 
     const resultDiv = document.getElementById('result');
